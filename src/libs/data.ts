@@ -13,7 +13,9 @@ import {
 	NextJSIcon,
 	RestAPIIcon,
 } from "../components/assets/Icontechstack/TechStackIcon";
-
+// import PostgreSQL from  "../components/assets/Icontechstack/TechStackIcon";
+// import MongoDB from  "../components/assets/Icontechstack/TechStackIcon";
+// import SpringBoot from  "../components/assets/Icontechstack/TechStackIcon";
 import { GitHubIcon, LinkedIn, Phone } from "../components/assets/Footer/Contact";
 import PictureQuiz from "../assets/Screenshot 2568-01-24 at 18.57.50.png";
 import TravelQuiz from "../assets/Screenshot 2568-01-24 at 19.20.52.png";
@@ -90,8 +92,28 @@ export const techStack = [
 	{
 		name: "Next.js",
 		icon: NextJSIcon,
-		type: "Frontend",
+		type: ["Frontend", "Backend"],
 	},
+	// {
+	// 	name: "Express.js",
+	// 	icon: ExpressJs,
+	// 	type: ["Backend"],
+	// },
+	// {
+	// 	name: "PostgreSQL",
+	// 	icon: PostgreSQL,
+	// 	type: ["Database"],
+	// },
+	// {
+	// 	name: "MongoDB",
+	// 	icon: MongoDB,
+	// 	type: ["Database"],
+	// },
+	// {
+	// 	name: "Springboot",
+	// 	icon: SpringBoot,
+	// 	type: ["Backend"],
+	// },
 ];
 
 export const projects = [

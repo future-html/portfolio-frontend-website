@@ -257,3 +257,15 @@ export const RestAPIIcon = (
 		</g>
 	</svg>
 );
+
+
+// import ExpressJs from "../../../assets/express_js.png";
+
+// import PostgreSQL from "../../../assets/PostgreSQL.jpg";
+
+
+// import MongoDB from "../../../assets/MongoDB.png";
+
+// import SpringBoot from "../../../assets/Springboot.jpg";
+
+// export const {ExpressJs, PostgreSQL, MongoDB, SpringBoot}; 

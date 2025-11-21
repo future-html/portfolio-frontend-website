@@ -35,12 +35,7 @@ const Hero = () => {
 					</h1>
 					<div>
 						<h3 className="text-justify !text-lg [text-align-last:left] indent-10">
-							Passionate Frontend Developer transitioning from Mechanical Engineering, with hands-on experience
-							in building responsive web applications using HTML, CSS, JavaScript, React, and Next.js Framework.
-						</h3>
-						<h3 className="text-justify !text-lg [text-align-last:left] indent-10">
-							Proficient in testing with Jest and experienced in collaborative projects like the event management
-							platform for oddsandends web development.
+							Passionate Software Developer with a Mechanical Engineering background and 3 years of experience, specializing in full-stack web development. Skilled in building responsive applications using HTML, CSS, JavaScript, React, and Next.js, with practical experience from internships and collaborative projects. Proficient in component testing using Jest and Vitest. Able to integrate IoT systems with web platforms, combining engineering problem-solving skills with modern software development to create efficient, user-focused digital solutions.
 						</h3>
 					</div>
 

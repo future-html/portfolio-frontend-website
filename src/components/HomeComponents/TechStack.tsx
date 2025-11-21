@@ -19,6 +19,8 @@ const useDivideStack = (stackType: string) => {
 const TechStack = () => {
 	const { typeStack: frontEndStack } = useDivideStack("Frontend");
 	const { typeStack: TestingStack } = useDivideStack("Testing");
+	const { typeStack: BackendStack } = useDivideStack("Backend");
+	const { typeStack: Database } = useDivideStack("Database");
 
 	return (
 		<motion.div
@@ -53,6 +55,40 @@ const TechStack = () => {
 					<h3 className="text-center w-full pb-[0.5rem]">Testing</h3>
 					<div className="md:flex md:justify-center grid grid-cols-2">
 						{TestingStack.map((each, index) => (
+							<motion.div
+								className="flex techStack justify-between items-center flex-col gap-2 p-2"
+								key={index}
+								initial={{ opacity: 0, y: 10 }}
+								animate={{ opacity: 1, y: 0 }}
+								transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }} // Stagger delay
+							>
+								<p>{each.name}</p>
+								{each.icon}
+							</motion.div>
+						))}
+					</div>
+				</div>
+				<div className="relative mt-5">
+					<h3 className="text-center w-full pb-[0.5rem]">Testing</h3>
+					<div className="md:flex md:justify-center grid grid-cols-2">
+						{BackendStack.map((each, index) => (
+							<motion.div
+								className="flex techStack justify-between items-center flex-col gap-2 p-2"
+								key={index}
+								initial={{ opacity: 0, y: 10 }}
+								animate={{ opacity: 1, y: 0 }}
+								transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }} // Stagger delay
+							>
+								<p>{each.name}</p>
+								{each.icon}
+							</motion.div>
+						))}
+					</div>
+				</div>
+				<div className="relative mt-5">
+					<h3 className="text-center w-full pb-[0.5rem]">Testing</h3>
+					<div className="md:flex md:justify-center grid grid-cols-2">
+						{Database.map((each, index) => (
 							<motion.div
 								className="flex techStack justify-between items-center flex-col gap-2 p-2"
 								key={index}
