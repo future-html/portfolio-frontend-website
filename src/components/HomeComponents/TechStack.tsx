@@ -69,7 +69,7 @@ const TechStack = () => {
 					</div>
 				</div>
 				<div className="relative mt-5">
-					<h3 className="text-center w-full pb-[0.5rem]">Testing</h3>
+					<h3 className="text-center w-full pb-[0.5rem]">Backend</h3>
 					<div className="md:flex md:justify-center grid grid-cols-2">
 						{BackendStack.map((each, index) => (
 							<motion.div
@@ -80,13 +80,15 @@ const TechStack = () => {
 								transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }} // Stagger delay
 							>
 								<p>{each.name}</p>
-								{each.icon}
+								
+									{each.icon}
+								
 							</motion.div>
 						))}
 					</div>
 				</div>
 				<div className="relative mt-5">
-					<h3 className="text-center w-full pb-[0.5rem]">Testing</h3>
+					<h3 className="text-center w-full pb-[0.5rem]">Database</h3>
 					<div className="md:flex md:justify-center grid grid-cols-2">
 						{Database.map((each, index) => (
 							<motion.div
@@ -98,6 +100,9 @@ const TechStack = () => {
 							>
 								<p>{each.name}</p>
 								{each.icon}
+								{/* <div className="w-1/2 h-auto size-6">
+									{each.icon}
+								</div> */}
 							</motion.div>
 						))}
 					</div>

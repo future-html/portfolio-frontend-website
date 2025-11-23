@@ -12,10 +12,12 @@ import {
 	Typescript,
 	NextJSIcon,
 	RestAPIIcon,
+	ExpressJs, 
+	PostgreSQL,
+	MongoDB,
+	SpringbootIcon,
 } from "../components/assets/Icontechstack/TechStackIcon";
-// import PostgreSQL from  "../components/assets/Icontechstack/TechStackIcon";
-// import MongoDB from  "../components/assets/Icontechstack/TechStackIcon";
-// import SpringBoot from  "../components/assets/Icontechstack/TechStackIcon";
+
 import { GitHubIcon, LinkedIn, Phone } from "../components/assets/Footer/Contact";
 import PictureQuiz from "../assets/Screenshot 2568-01-24 at 18.57.50.png";
 import TravelQuiz from "../assets/Screenshot 2568-01-24 at 19.20.52.png";
@@ -94,26 +96,26 @@ export const techStack = [
 		icon: NextJSIcon,
 		type: ["Frontend", "Backend"],
 	},
-	// {
-	// 	name: "Express.js",
-	// 	icon: ExpressJs,
-	// 	type: ["Backend"],
-	// },
-	// {
-	// 	name: "PostgreSQL",
-	// 	icon: PostgreSQL,
-	// 	type: ["Database"],
-	// },
-	// {
-	// 	name: "MongoDB",
-	// 	icon: MongoDB,
-	// 	type: ["Database"],
-	// },
-	// {
-	// 	name: "Springboot",
-	// 	icon: SpringBoot,
-	// 	type: ["Backend"],
-	// },
+	{
+		name: "Express.js",
+		icon: ExpressJs,
+		type: ["Backend"],
+	},
+	{
+		name: "PostgreSQL",
+		icon: PostgreSQL,
+		type: ["Database"],
+	},
+	{
+		name: "MongoDB",
+		icon: MongoDB,
+		type: ["Database"],
+	},
+	{
+		name: "Springboot",
+		icon: SpringbootIcon,
+		type: ["Backend"],
+	},
 ];
 
 export const projects = [
@@ -180,22 +182,49 @@ export const timeLine = [
 
 export const Experience = [
 	{
-		year: "Dec 2024 to Apr 2025",
-		role: "Frontend developer internship",
-		experience: `Worked on university website projects, taking responsibility for frontend development in the "Odd and Ends" initiative (have experience to use Next.js  integration with LIFF provided by Line Corporation)`,
+		year: "Oct 2025 – Nov 2025 ",
+		role: "— Software Development Project",
+		experience: `Developed a full website integrated with IoT systems for a vending machine
+innovation project. Served as the sole developer responsible for both system
+integration and UI/UX implementation.`,
 	},
 	{
-		year: "Jun 2023 to Aug 2023",
-		role: "Frontend developer internship",
-		experience: `Completed an internship in computer engineering, focusing on programming and software development with senior full stack developer who worked in Wisesight company.
+		year: "Aug 2025 – Present ",
+		role: "F— Web Development & Humanoid Mechanism (Senior Project)",
+		experience: `Developing a virtual-reality rehabilitation system for stroke patients, integrating
+Oculus with React Three Fiber for immersive interaction. Also contributing to the
+design of an ARM-based humanoid mechanism.`,
+	},
+	{
+		year: "May 2025 – Aug 2025",
+		role: "— Full-Stack Software Development Intern, Smart Shift Solution",
+		experience: `Worked as a full-stack developer in a collaborative team environment, contributing
+to large-scale enterprise projects, including systems used by major client Supalai.`, 
+	},
+	{
+		year: `Dec 2024 – Apr 2025 — `,
+		role: `Frontend Developer Intern,
 `,
+		experience: `“Odd and Ends” Project
+Developed university-related web applications, focusing on frontend
+implementation using Next.js. Integrated LIFF (Line Front-end Framework) to
+support Line ecosystem features.`,
 	},
 	{
-		year: "2022-now",
-		role: "Github project builder",
-		experience:
-			"Built and contributed to 6 standout projects on GitHub, showcasing my passion for coding, problem-solving, and continuous learning. Explore my portfolio to see my growth and creativity in action!",
+		year: "Jun 2023 – Aug 2023",
+		role: " — Frontend Developer Intern ",
+		experience: `Completed an internship focused on programming and software development,
+working closely with a senior full-stack developer to strengthen core coding
+fundamentals`,
 	},
+	{
+		year: "2022 – Present ",
+		experience: ` Frontend Development Projects
+Built and contributed to 6+ notable projects on GitHub, demonstrating strong
+problem-solving skills, creativity, and consistent growth in web development.",
+		role: "Frontend developer internship`,
+	},
+	
 ];
 
 export const Contact = [
