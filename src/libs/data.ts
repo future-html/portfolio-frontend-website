@@ -16,6 +16,7 @@ import {
 	PostgreSQL,
 	MongoDB,
 	SpringbootIcon,
+	reactRedux,
 } from "../components/assets/Icontechstack/TechStackIcon";
 
 import { GitHubIcon, LinkedIn, Phone } from "../components/assets/Footer/Contact";
@@ -115,6 +116,11 @@ export const techStack = [
 		name: "Springboot",
 		icon: SpringbootIcon,
 		type: ["Backend"],
+	},
+	{
+		name: "Redux",
+		icon: reactRedux,
+		type: ["Frontend"],
 	},
 ];
 
